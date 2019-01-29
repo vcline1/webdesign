@@ -1,0 +1,13 @@
+a {
+  font-size:300px;
+ }
+
+body {
+  background-color: tomato;
+  <!-- can do rgb, CMYK, etc. -->
+  color: whitesmoke;
+}
+
+img{
+  width: 100;
+}
