@@ -1,11 +1,13 @@
-a {
-  font-size:25px;
- }
+
 
 body {
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: tomato;
+  color: white;
+  font-size: 20px;
+  width: 600px;
+  margin: 50px 75px;
   <!-- can do rgb, CMYK, etc. -->
-  color: whitesmoke;
 }
 
 img{
