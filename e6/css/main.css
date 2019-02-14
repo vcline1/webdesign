@@ -76,7 +76,7 @@ margin: 0px 30px 15px 50px;
 .Pattern3 {
   background-color: #6A7174;
   margin: 0px;
-  padding: 0;
+  padding: 0px;
   width: 140%;
 }
 .Pattern3 .first {
@@ -91,9 +91,9 @@ margin: 0px 30px 15px 50px;
       width: 100px;
       height: 100px;
       background: #8BDBF0;
-      transform: rotate(20deg);
+      transform: rotate(40deg);
       opacity: .95;
-      padding-left: 25px;
+      margin-left: -25px;
 
     }
 
