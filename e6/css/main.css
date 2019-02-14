@@ -1,12 +1,14 @@
-.normal {
-  margin: 0px 0px;
-  }
+
 
   body {
   margin: -100px -40px;
   padding: 0;
   width: 140%;
 }
+
+.normal {
+  margin: 25px 50px;
+  }
 
 div {
   width: 100px;
@@ -72,6 +74,7 @@ margin: 0px 30px 15px 50px;
 }
 
 .Pattern3 {
+  background-color: #6A7174;
   margin: 0px;
   padding: 0;
   width: 140%;
@@ -79,17 +82,19 @@ margin: 0px 30px 15px 50px;
 .Pattern3 .first {
       width: 100px;
       height: 100px;
-      background: #39E2E6;
+      background: #2C2223;
       transform: rotate(20deg);
-      opacity: .70;
+      opacity: .80
+
 }
 .Pattern3 .second {
       width: 100px;
       height: 100px;
-      background: #33E1A6;
+      background: #8BDBF0;
       transform: rotate(20deg);
-      opacity: .70;
-      margin-left: -20px;
+      opacity: .95;
+      padding-left: 25px;
+
     }
 
   .Pattern4 .first {
