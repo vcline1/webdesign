@@ -1,0 +1,27 @@
+.title {
+  width: 50%;
+  margin: 0px auto;
+}
+
+h1{
+  text-align: center;
+  /* line-height: 1.3; */
+  font-size: 9.2em;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  /* line-height: 2; */
+  font-family: 'Crimson Text', serif;
+}
+
+.text {
+  width: 40%;
+  margin: 0px auto;
+    line-height: auto;
+    font-size: 16px;
+}
+
+/* shipwreck */
