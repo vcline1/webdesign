@@ -4,6 +4,8 @@
 }
 
 h1{
+  margin: 0px;
+  line-height: 180px;
   text-align: center;
   /* line-height: 1.3; */
   font-size: 9.2em;
@@ -24,4 +26,20 @@ h2 {
     font-size: 16px;
 }
 
+
+a {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 1s ease;
+  }
+
+  a:hover {
+    color: #392E33;
+  }
+}
+/* .title {
+  height: 600px;
+  background-color: red;
+} */
 /* shipwreck */

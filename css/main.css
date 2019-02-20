@@ -11,5 +11,13 @@ body {
 }
 
 a {
-  color: #EAEAEA;
+  color: white;
+  text-decoration: none;
+  /* border-bottom: 2px solid white; */
+  cursor: pointer;
+  transition: color 1s ease;
+}
+
+a:hover {
+  color: #B4B4B4;
 }

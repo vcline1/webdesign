@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+.links {
+  margin: 30px;
+  font-size: 16pt;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  float: left;
+}
+
+.board {
+  width: 800px;
+}
+.board .red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.board .black {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.court {
+  width: 500px;
+}
+
+.innersquare {
+  width: 300px;
+}
+
+.small {
+  width: 300px;
+}
+
+.tall, .wide, .square {
+  background-color: red;
+  border: 1px white solid;
+}
+
+.tall {
+  width: 100px;
+  height: 250px;
+}
+
+.wide {
+  width: 300px;
+  height: 100px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+}
+
+.colwide, .thinwide, .rectangle {
+  background-color: red;
+  border: 8px white solid;
+}
+
+.column {
+  width: 900px;
+}
+
+.recs {
+  width: 900px;
+}
+
+.colwide {
+  width: 900px;
+  height: 150px;
+}
+
+.thinwide {
+  width: 900px;
+  height: 50px;
+}
+
+.rectangle {
+  width: 300px;
+  height: 600px;
+}
+
+.blog {
+  width: 800px;
+}
+
+.banner, .content, .comm, .bottom {
+  background-color: red;
+  border: 4px white solid;
+}
+
+.banner {
+  width: 800px;
+  height: 150px;
+  margin-bottom: 100px;
+}
+
+.content {
+  width: 650px;
+  height: 400px;
+}
+
+.comm {
+  width: 150px;
+  height: 200px;
+}
+
+.bottom {
+  width: 650px;
+  height: 50px;
+  margin-bottom: 100px;
+}
