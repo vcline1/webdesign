@@ -28,14 +28,15 @@ h2 {
 
 
 a {
-    color: red;
+    color: #392E33;
+    font-style: italic;
     text-decoration: none;
     cursor: pointer;
     transition: color 1s ease;
   }
 
   a:hover {
-    color: #392E33;
+    color: red;
   }
 }
 /* .title {
