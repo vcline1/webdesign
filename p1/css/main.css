@@ -34,6 +34,8 @@ a {
     text-decoration: none;
     cursor: pointer;
     transition: color 1s ease;
+    outline:none;
+
   }
 
 a:hover {
