@@ -3,8 +3,22 @@
 }
 
 .links {
-  margin: 30px;
-  font-size: 16pt;
+  background-color: #0080ff;
+  color: white;
+  font-size: 20px;
+  margin: 50px 75px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  /* border-bottom: 2px solid white; */
+  cursor: pointer;
+  transition: color 1s ease;
+}
+
+.links a:hover {
+  color: #B4B4B4;
 }
 
 body {
