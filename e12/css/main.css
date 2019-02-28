@@ -1,5 +1,5 @@
 
-#layout1 {
+#layout1, #layout2 {
   width: 1020px;
   margin: 0 auto;
 }
@@ -61,14 +61,33 @@
   margin-left: 150px;
   margin-bottom: 50px;
 }
-/* .circle {
-  height: 440px;
-  width: 440px;
-  background-color: #bbb;
-  border-radius: 50%;
-  margin-left: 150px;
-  margin-bottom: 50px;
-  background-image: url(scarlet1.jpg);
-  background-position:50% 50%;
-  background-repeat:no-repeat;
-} */
+
+
+/* layout 2 */
+
+#title2 {
+  margin-top: 20px;
+  width: 940px;
+}
+
+#title2 h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.bar {
+      width: 980px;
+      height: 6px;
+      background-color: black;
+      margin-top: -10px;
+}
+
+#title2 h1 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 85px;
+  text-align: center;
+  margin-top: 150px;
+}
