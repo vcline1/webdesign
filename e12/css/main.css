@@ -2,6 +2,7 @@
 #layout1, #layout2 {
   width: 1020px;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 #title1 {
@@ -66,7 +67,7 @@
 /* layout 2 */
 
 #title2 {
-  margin-top: 20px;
+  margin-top: 40px;
   width: 940px;
 }
 
