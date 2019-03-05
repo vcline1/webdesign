@@ -5,6 +5,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* layout1  */
+
 #title1 {
   width: 350px;
 }
@@ -31,7 +33,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-#col1 {
+#content1 #col1 {
   width: 350px;
   float: left;
   margin-bottom: 100px;
@@ -53,7 +55,7 @@
   line-height: 20px;
 }
 
-#col2 {
+#Content1 #col2 {
   width: 850px;
   float: left;
 }
@@ -79,16 +81,68 @@
 }
 
 .bar {
-      width: 980px;
-      height: 6px;
-      background-color: black;
-      margin-top: -10px;
+  width: 940px;
+  height: 6px;
+  background-color: black;
+  margin-top: -10px;
 }
 
 #title2 h1 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
+  font-weight: normal;
   font-size: 85px;
   text-align: center;
   margin-top: 150px;
+}
+
+#circlerow {
+  width: 940px;
+  margin: auto;
+}
+
+#circlerow img {
+  margin-right: 190px;
+  width:160px;
+  height: auto;
+}
+
+#circlerow img:nth-last-child(1) {
+  margin-right: 0px;
+  width:160px;
+  height: auto;
+}
+
+#chapter {
+  width: 900px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#chapter h4 {
+  font-size: 19px;
+  font-weight: normal;
+}
+
+#chapter h3 {
+  font-size: 29px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: -25px;
+}
+
+#content2 {
+  width: 900px;
+  margin: auto;
+}
+
+#content2 #col1 {
+  float: left;
+  width: 428px;
+  margin-right: 40px;
+}
+
+#content2 #col2 {
+  float: left;
+  width: 428px;
 }
