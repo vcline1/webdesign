@@ -1,5 +1,5 @@
 
-#layout1, #layout2 {
+#layout1, #layout2, #layout3 {
   width: 1020px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
@@ -55,7 +55,7 @@
   line-height: 20px;
 }
 
-#Content1 #col2 {
+#content1 #col2 {
   width: 850px;
   float: left;
 }
@@ -113,18 +113,18 @@
   height: auto;
 }
 
-#chapter {
+#chapter2 {
   width: 900px;
   margin: auto;
   margin-top: 150px;
 }
 
-#chapter h4 {
+#chapter2 h4 {
   font-size: 19px;
   font-weight: normal;
 }
 
-#chapter h3 {
+#chapter2 h3 {
   font-size: 29px;
   font-weight: normal;
   text-transform: uppercase;
@@ -145,4 +145,46 @@
 #content2 #col2 {
   float: left;
   width: 428px;
+}
+
+/* layout3  */
+
+#title3 {
+  margin-top: 180px;
+}
+
+#title3 h1 {
+  font-family: bebas-kai, sans-serif;
+  font-size: 144px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#title3 h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 33px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: -110px;
+  padding-left: 55px;
+}
+
+#content3 {
+  font-family: "Times New Roman", Times, serif;
+  width: 525px;
+  margin-left: 466px;
+  margin-top: 90px;
+}
+
+#chapter3 h4 {
+  font-size: 34px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#chapter3 h3 {
+  font-size: 58px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: -50px;
 }
