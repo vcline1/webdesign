@@ -150,7 +150,7 @@
 /* layout3  */
 
 #title3 {
-  margin-top: 180px;
+  margin-top: 120px;
 }
 
 #title3 h1 {
@@ -187,4 +187,68 @@
   font-weight: normal;
   text-transform: uppercase;
   margin-top: -50px;
+}
+
+#bodytext {
+  margin-left: 10px;
+  margin-top: -50px;
+}
+
+/* layout4 */
+
+#layout4 {
+  width: 1519px;
+  margin: 0 auto;
+}
+
+.titlebg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: translate(-6%, -50%);
+  text-transform: uppercase;
+  font-family: bebas-kai, sans-serif;
+  font-size: 190px;
+}
+
+.author {
+    position: absolute;
+    top: 64%;
+    left: 12%;
+    transform: translate(-6%, -50%);
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #e6e7e8;
+    font-size: 45px;
+}
+
+#chapter4 {
+  width: 545px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+#chapter4 h4 {
+  font-size: 34px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+#chapter4 h3 {
+  font-size: 58px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+#bodytext {
+
 }
