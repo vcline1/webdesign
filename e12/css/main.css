@@ -201,13 +201,13 @@
   margin: 0 auto;
 }
 
-.titlebg {
+#titlebg {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.centered {
+#centered {
   position: absolute;
   top: 50%;
   left: 14%;
@@ -217,7 +217,7 @@
   font-size: 190px;
 }
 
-.author {
+#author {
     position: absolute;
     top: 64%;
     left: 12%;
@@ -249,6 +249,34 @@
   margin-top: -50px;
 }
 
-#bodytext {
+/* layout5 */
+#layout5 {
+  width: 700px;
+  margin: 0 auto;
+}
 
+#titlebg2 {
+  margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#topcentered {
+  position: absolute;
+  top: 3%;
+  left: -45%;
+  transform: translate(19%, -50%);
+  text-transform: uppercase;
+  font-family: linotype-didot, serif;
+  font-size: 81px;
+}
+
+#authorcentered {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
 }
