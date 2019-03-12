@@ -251,7 +251,7 @@
 
 /* layout5 */
 #layout5 {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -264,26 +264,27 @@
 #topcentered {
   position: absolute;
   top: 3%;
-  left: -45%;
+  left: -27%;
   transform: translate(19%, -50%);
   text-transform: uppercase;
   font-family: linotype-didot, serif;
-  font-size: 81px;
+  font-weight: bold;
+  font-size: 83px;
 }
 
 #authorcentered {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal;
     margin: 0 auto;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 #chapter5 {
   font-family: 'Raleway', sans-serif;
-  margin: auto;
+  margin-left: 64px;
   margin-top: 45px;
 }
 
@@ -300,7 +301,7 @@
 }
 
 #content5 {
-  width: 800px;
+  width: 760px;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
@@ -309,11 +310,12 @@
 
 #content5 #col1 {
   float: left;
-  width: 330px;
+  width: 360px;
   margin-right: 40px;
+  margin-bottom: 50px;
 }
 
 #content5 #col2 {
   float: left;
-  width: 330px;
+  width: 360px;
 }
