@@ -18,7 +18,7 @@
     color: #B4B4B4;
   }
 
-#layout1, #layout2, #layout3 {
+#layout1, #layout3 {
   width: 1020px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
@@ -92,6 +92,12 @@
 
 /* layout 2 */
 
+#layout2 {
+  width: 950px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
 #title2 {
   margin-top: 40px;
   width: 940px;
@@ -138,7 +144,7 @@
 }
 
 #chapter2 {
-  width: 900px;
+  width: 915px;
   margin: auto;
   margin-top: 150px;
 }
@@ -157,7 +163,7 @@
 }
 
 #content2 {
-  width: 900px;
+  width: 915px;
   margin: auto;
 }
 
