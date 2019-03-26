@@ -1,0 +1,87 @@
+main {
+  width: 1299.441px;
+  margin: 76px auto;
+}
+
+.header {
+  width: 1284.83px;
+  margin-top: 400px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.title {
+  width: 875px;
+  position: absolute;
+  top: -11.5%;
+  left: -6%;
+  transform: translate(19%, -50%);
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 94.7px;
+  line-height: 100px;
+  color: #2e2e2e;
+}
+
+.authorDate {
+  margin-left: 331px;
+  margin-top: 95px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 19px;
+  color: #2e2e2e;
+}
+
+.pull {
+  margin-left: 331px;
+  margin-top: 106.4px;
+  font-size: 34px;
+  width: 590px;
+  font-family: 'Playfair Display', serif;
+  color: #2e2e2e;
+}
+
+.introtext {
+  margin-left: 331px;
+  margin-top: 139px;
+  width: 638px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #464547;
+}
+
+.bodytext {
+  margin-left: 331px;
+  width: 638px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #464547;
+}
+
+.dropcap {
+  color: #2e2e2e;
+  float: left;
+  font-size: 130px;
+  line-height: 93px;
+  font-weight: 900;
+  padding-top: 4px;
+  padding-left: 3px;
+  padding-right: 8px;
+}
+
+.bodytext p {
+  margin-bottom: 40px;
+}
+
+.pullquote {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 51.7px;
+  line-height: 70px;
+  width: 727.373px;
+  color: #2e2e2e;
+  margin-top: 108px;
+  margin-bottom: 108px;
+}
