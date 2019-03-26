@@ -52,6 +52,10 @@ main {
   color: #464547;
 }
 
+.introtext p {
+  margin-bottom: 40px;
+}
+
 .bodytext {
   margin-left: 331px;
   width: 638px;
