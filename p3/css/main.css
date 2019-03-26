@@ -62,18 +62,60 @@ main {
 }
 
 .dropcap {
+  font-family: 'Playfair Display', serif;
+
   color: #2e2e2e;
   float: left;
   font-size: 130px;
-  line-height: 93px;
-  font-weight: 900;
-  padding-top: 4px;
+  line-height: 90px;
+  /* font-weight: 900; */
+  padding-top: -1px;
   padding-left: 3px;
   padding-right: 8px;
 }
 
 .bodytext p {
   margin-bottom: 40px;
+}
+
+
+/* a{
+  text-decoration: none;
+  color: #4eaaaa;
+  position: relative;
+
+}
+
+a:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: -3px;
+  right: 0;
+  background:#f1bdba;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+a:hover:after{
+  width: 100%;
+  left: 0;
+  background: #f1bdba;
+} */
+
+ a {
+  color: #4eaaaa;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
 }
 
 .quotation {
