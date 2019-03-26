@@ -1,3 +1,5 @@
+/* 1440px version */
+
 main {
   width: 1299.441px;
   margin: 76px auto;
@@ -74,7 +76,16 @@ main {
   margin-bottom: 40px;
 }
 
-.pullquote {
+.quotation {
+  font-family: 'Playfair Display', serif;
+  color: #f1bdba;
+  font-weight: bold;
+  font-size: 284px;
+  margin-bottom: -390px;
+  margin-left: 250px;
+}
+
+.quote {
   margin: 0 auto;
   text-align: center;
   font-family: 'Playfair Display', serif;
@@ -84,4 +95,20 @@ main {
   color: #2e2e2e;
   margin-top: 108px;
   margin-bottom: 108px;
+}
+
+.image1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:40px;
+  width: 40%;
+}
+
+.image2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 40px;
 }
