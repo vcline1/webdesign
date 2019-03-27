@@ -111,15 +111,15 @@ a:hover:after{
  a {
   color: #4eaaaa;
     text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
+    background-image: linear-gradient(#f1bdba, #f1bdba);
+    background-position: 0% 104%;
     background-repeat: no-repeat;
-    background-size: 0% 2px;
+    background-size: 0% 3px;
     transition: background-size .3s;
 }
 
 a:hover, a:focus {
-    background-size: 100% 2px;
+    background-size: 100% 3px;
 }
 
 .quotation {
