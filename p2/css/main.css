@@ -18,3 +18,8 @@
 .normal a:hover {
   color: #B4B4B4;
 }
+
+.artboard {
+  margin: 0;
+  text-align: center;
+}
