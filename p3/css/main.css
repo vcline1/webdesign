@@ -2,7 +2,12 @@
 
 main {
   width: 1299.441px;
-  margin: 76px auto;
+  margin: 43px auto;
+}
+
+.menuLine {
+  margin-top: 23px;
+  border-top: 1px solid #2e2e2e;
 }
 
 .header {
@@ -43,6 +48,7 @@ main {
 }
 
 .introtext {
+  margin: 0 auto;
   margin-left: 331px;
   margin-top: 139px;
   width: 638px;
@@ -57,7 +63,7 @@ main {
 }
 
 .bodytext {
-  margin-left: 331px;
+  margin: 0 auto;
   width: 638px;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
@@ -131,6 +137,37 @@ a:hover, a:focus {
   margin-bottom: 40px;
 }
 
+.authorFooter{
+  width: 482px;
+  margin: auto;
+  margin-top: 206px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  color: #464547;
+  text-align: center;
+}
+
+.authorimg {
+  text-align: center;
+}
+
+#author {
+  margin-top: 47px;
+  margin-bottom: 21px;
+  font-size: 32px;
+}
+
+.footer {
+  margin: auto;
+  margin-top: 223px;
+  text-align: center;
+}
+
+.footerLine {
+  border-top: 1px solid #2e2e2e;
+  margin-bottom: 22px;
+}
 /* 1024px version */
 
 /* @media only screen and (max-width: 490px) {
