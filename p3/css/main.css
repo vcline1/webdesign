@@ -1,4 +1,7 @@
 /* 1440px version */
+body {
+  margin: 0px;
+}
 
 main {
   width: 1299.441px;
@@ -39,7 +42,6 @@ main {
 }
 
 .pull {
-  margin-left: 331px;
   margin-top: 106.4px;
   font-size: 34px;
   width: 590px;
@@ -49,7 +51,6 @@ main {
 
 .introtext {
   margin: 0 auto;
-  margin-left: 331px;
   margin-top: 139px;
   width: 638px;
   font-family: 'Work Sans', sans-serif;
@@ -100,13 +101,19 @@ a:hover, a:focus {
     background-size: 100% 3px;
 }
 
+.pullquote {
+  margin: 0;
+  margin-top: 108px;
+  margin-bottom: 80px;
+}
+
 .quotation {
   font-family: 'Playfair Display', serif;
   color: #f1bdba;
   font-weight: bold;
   font-size: 284px;
-  margin-bottom: -363px;
   margin-left: 246px;
+  margin-top: -150px;
 }
 
 .quote {
@@ -117,8 +124,8 @@ a:hover, a:focus {
   line-height: 70px;
   width: 727.373px;
   color: #2e2e2e;
-  margin-top: 108px;
-  margin-bottom: 108px;
+  margin-top: -253px;
+  /* margin-bottom: 108px; */ */
 }
 
 .image1 img {
@@ -137,7 +144,7 @@ a:hover, a:focus {
   margin-bottom: 40px;
 }
 
-.authorFooter{
+.authorFooter {
   width: 482px;
   margin: auto;
   margin-top: 206px;
@@ -168,24 +175,166 @@ a:hover, a:focus {
   border-top: 1px solid #2e2e2e;
   margin-bottom: 22px;
 }
+
 /* 1024px version */
 
-/* @media only screen and (max-width: 490px) {
-  body {
-    background-color: #BEE7E8;
+@media only screen and (max-width: 1024px) {
+  main{
+    width: 912.575px;
+    margin: 43px auto;
   }
-    main{
-      width: 85vw;
-    }
-    h1 {
-      font-size: 4.5em;
-    }
 
-    h2, h3 {
-      color: #0B3142;
-    }
-} */
+  .logo {
+    width: 119.305px;
+    height: auto;
+  }
+
+  .header {
+    margin: 0;
+    width: 912.575px;
+    margin-top: 310px;
+    position: relative;
+  }
+
+  .headerImg {
+    margin: 0 auto;
+    width: 912.575px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 67px;
+    line-height: 71px;
+    width: 613px;
+  }
+
+  .authorDate {
+    margin-left: 135.722px;
+  }
+
+  .pull {
+    margin-top: 106.4px;
+    margin-left: 135.722px;
+  }
+
+  .quotation {
+    font-size: 284px;
+    margin-left: 58px;;
+  }
+
+  .image1 img {
+    width: 556px;
+    height: auto;
+  }
+
+  .image2 img {
+    width: 806px;
+    height: auto;
+  }
+
+  .authorimg {
+    width: 328px;
+  }
+
+  .footerLogo {
+    width: 132px;
+    margin-bottom: -22px;
+  }
+}
 
 /* 768px version */
+
+@media only screen and (max-width: 768px) {
+  main {
+    width: 768px;
+    margin: 30px auto;
+  }
+
+  .logo {
+    margin-left: 32.7px;
+    margin-bottom: 0px;
+    width: 96px;
+    height: auto;
+  }
+
+  .header {
+    margin: 0;
+    width: 7685px;
+    margin-top: 280px;
+    position: relative;
+  }
+
+.headerImg {
+    margin: 0 auto;
+    width: 768px;
+    height: auto;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 53px;
+    line-height: 56px;
+    width: 477.826px;
+    top: -208px;
+    left: 84px;
+    transform: none;
+  }
+
+  .authorDate {
+    margin-left: 79px;
+  }
+
+  .pull {
+    width: 551px;
+    margin-top: 106.4px;
+    margin-left: 79px;
+    font-size: 32px;
+  }
+
+  .introtext {
+    width: 609px;
+  }
+
+  .bodytext {
+    width: 609px;
+  }
+
+  .pullquote {
+    margin: 0;
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+  .quotation {
+    font-size: 229px;
+    margin-left: 50px;
+  }
+
+  .quote {
+    font-size: 43px;
+    line-height: 58px;
+    width: 581px;
+    margin-top: -205px;
+  }
+
+  .image1 img {
+    width: 555px;
+    height: auto;
+  }
+
+  .image2 img {
+    width: 768px;
+    height: auto;
+  }
+
+  .authorimg {
+    width: 311px;
+  }
+
+  .footerLogo {
+    width: 110px;
+    margin-bottom: -12px;
+  }
+}
+
 
 /* 320px version */
