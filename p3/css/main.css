@@ -15,8 +15,9 @@ main {
 
 .header {
   width: 1284.83px;
+  margin: 0 auto;
   margin-top: 400px;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   position: relative;
 }
 
@@ -42,6 +43,7 @@ main {
 }
 
 .pull {
+  margin-left: 331px;
   margin-top: 106.4px;
   font-size: 34px;
   width: 590px;
@@ -173,7 +175,7 @@ a:hover, a:focus {
 
 .footerLine {
   border-top: 1px solid #2e2e2e;
-  margin-bottom: 22px;
+  margin-bottom: 30px;
 }
 
 /* 1024px version */
@@ -247,19 +249,19 @@ a:hover, a:focus {
 @media only screen and (max-width: 768px) {
   main {
     width: 768px;
-    margin: 30px auto;
+    margin: 25px auto;
   }
 
   .logo {
     margin-left: 32.7px;
-    margin-bottom: 0px;
+    margin-bottom: -0px;
     width: 96px;
     height: auto;
   }
 
   .header {
     margin: 0;
-    width: 7685px;
+    width: 768px;
     margin-top: 280px;
     position: relative;
   }
@@ -332,9 +334,152 @@ a:hover, a:focus {
 
   .footerLogo {
     width: 110px;
-    margin-bottom: -12px;
+    margin-bottom: 0px;
   }
 }
 
 
 /* 320px version */
+@media only screen and (max-width: 320px) {
+  main {
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  .logo {
+    margin-left: 32.7px;
+    margin-bottom: -10px;
+    width: 53px;
+    height: auto;
+  }
+
+  .header {
+    margin: 0;
+    width: 320px;
+    margin-top: 160px;
+    position: relative;
+  }
+
+.headerImg {
+    margin: 0 auto;
+    width: 320px;
+    height: auto;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 25.39px;
+    line-height: 26.81px;
+    width: 230.574px;
+    top: -100px;
+    left: 25px;
+    transform: none;
+  }
+
+  .authorDate {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 9.55px;
+  }
+
+  .pull {
+    width: 255px;
+    margin-top: 37px;
+    margin-left: 25px;
+    font-size: 19px;
+  }
+
+  .introtext {
+    margin-top: 50.6px;
+    width: 289px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .dropcap {
+    font-family: 'Playfair Display', serif;
+    color: #2e2e2e;
+    float: left;
+    font-size: 105px;
+    line-height: 75px;
+    padding-top: -35px;
+    padding-left: 3px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+ }
+
+  .bodytext {
+    font-size: 14px;
+    line-height: 22px;
+    width: 289px;
+  }
+
+  .pullquote {
+    margin: 0;
+    margin-top: 140px;
+    margin-bottom: 40px;
+
+  }
+  .quotation {
+    font-size: 105px;
+    margin-left: 14px;
+  }
+
+  .quote {
+    font-size: 19px;
+    line-height: 25px;
+    width: 257px;
+    margin-top: -93px;
+  }
+
+  .image1 img {
+    width: 320px;
+    height: auto;
+  }
+
+  .image2 img {
+    width: 320px;
+    height: auto;
+  }
+
+  .authorFooter {
+    margin: 0 auto;
+    width: 263px;
+    margin-top: 106px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #464547;
+    text-align: center;
+  }
+#author {
+  margin: 0 auto;
+  margin-bottom: 11px;
+}
+
+#authorBio {
+  font-size: 9.81px;
+  line-height: 15px;
+}
+
+  .authorimg {
+    margin-bottom: 24px;
+    width: 159px;
+    height: auto;
+  }
+
+  .footer {
+    margin: 0 auto;
+    margin-top: 113px;
+  }
+
+  .footerLine {
+    margin-bottom: 10;
+  }
+
+  .footerLogo {
+    margin: 0 auto;
+    width: 56px;
+    margin-bottom: 10px;
+  }
+}
