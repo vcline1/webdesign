@@ -1,0 +1,20 @@
+.normal{
+  font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0080ff;
+    color: white;
+    font-size: 20px;
+    width: 600px;
+    margin: 50px 75px;
+    }
+
+.normal a {
+    color: white;
+    text-decoration: none;
+    /* border-bottom: 2px solid white; */
+    cursor: pointer;
+    transition: color 1s ease;
+  }
+
+.normal a:hover {
+    color: #B4B4B4;
+  }
