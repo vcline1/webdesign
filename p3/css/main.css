@@ -342,6 +342,7 @@ a:hover, a:focus {
 /* 320px version */
 @media only screen and (max-width: 375px) {
   main {
+    zoom: 100%;
     width: 320px;
     margin: 10px auto;
   }
