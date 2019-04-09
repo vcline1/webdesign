@@ -340,9 +340,9 @@ a:hover, a:focus {
 
 
 /* 320px version */
-@media only screen and (max-width: 451px) {
+@media only screen and (max-width: 375px) {
   main {
-    width: 3200px;
+    width: 320px;
     margin: 10px auto;
   }
 
