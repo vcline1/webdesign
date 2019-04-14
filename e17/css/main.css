@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	color: white;
+	background-color: #4ec5c1;
+	font-family: 'PT Serif', serif;
+}
+#container {
+	width: 50vw;
+	margin: 0 auto;
+	padding: 150px 0 0 0;
+}
+
+h1, p {
+	margin: 0;
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+/* .tomato {
+  background-color: black;
+} */
+
+input {
+	width: 50vw;
+	height: 20px;
+	margin-top: 50px;
+	border-radius: 10px;
+	font-size: 30px;
+	padding: 25px 0;
+	text-align: center;
+}
+
+
+.button {
+	width: 160px;
+	background-color: #ff3b3f;
+	color: white;
+	border-radius: 20px;
+	padding: 10px 15px;
+	margin: 50px auto;
+}
+.button:hover {
+	cursor: pointer;
+}
+.button p {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
