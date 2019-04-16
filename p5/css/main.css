@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0 auto;
   background-color: #4FC1C2;
 }
@@ -8,7 +8,6 @@ body {
   margin-left:260px;
   width: 944.7px;
   height: 475.2px;
-  /* background-color: #3caaa7; */
   position: relative;
   display: inline-block;
 }
@@ -21,7 +20,6 @@ body {
   width: 255px;
   background-color: white;
   border-radius: 50%;
-  /* background-color: black; */
 }
 
 p {
@@ -30,19 +28,92 @@ p {
   color: #4FC1C2;
   font-size: 26px;
   text-transform: uppercase;
-  /* position: absolute; */
   text-align: center;
   margin-top: 115px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .dotLine {
   border:none;
   border-top: 2px dashed white;
-  /* color:#fff; */
-  /* background-color:#fff; */
   height:1px;
   width:323px;
   margin-top: 235px;
-  margin-left: 310px;
+  margin-left: 322px;
+}
+
+img{
+  width: 430px;
+  height: auto;
+}
+
+.coffeeImg {
+  margin-left: 590px;
+  margin-top: -220px;
+} */
+
+body {
+  margin: 0 auto;
+  background-color: #4FC1C2;
+}
+
+.container{
+  position: relative;
+  width: 81.84vw;
+  height: 70.36vh;
+  /* background-color: red; */
+  margin: 0 auto;
+  margin-top: 14.68vh;
+}
+
+.buttonPosition{
+  left: 6%;
+  position: absolute;
+  margin-top: 5.4vw;
+  width: 22.28%;
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+.buttonBox{
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.button {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+p {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #4FC1C2;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 46%;
+  font-weight: 400;
+}
+
+.dotLine {
+  position: absolute;
+  left: 34%;
+  border:none;
+  border-top: 2px dashed white;
+  height:1px;
+  width:25vw;
+  margin-top: 14.9vw;
+
+}
+
+img{
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: auto;
 }

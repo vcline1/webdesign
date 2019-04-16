@@ -22,9 +22,7 @@ h1 {
 	font-weight: normal;
 }
 
-/* .tomato {
-  background-color: black;
-} */
+
 
 input {
 	width: 50vw;
@@ -44,10 +42,17 @@ input {
 	border-radius: 20px;
 	padding: 10px 15px;
 	margin: 50px auto;
+	transition: all 1s ease;
+
 }
 .button:hover {
 	cursor: pointer;
 }
+
+.tomato {
+  background-color: #e02730;
+}
+
 .button p {
 	text-align: center;
 	text-transform: uppercase;
