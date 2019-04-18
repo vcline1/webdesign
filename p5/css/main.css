@@ -83,10 +83,25 @@ body {
 
 .button {
   position: absolute;
+  /* transition: transform .2s; */
+  transition: all .3s ease;
+
   height: 100%;
   width: 100%;
   background-color: white;
   border-radius: 50%;
+}
+
+
+.button:hover {
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.08);
+}
+
+
+.gray {
+  background-color: #D7EBEE;
 }
 
 p {
@@ -116,4 +131,12 @@ img{
   right: 0;
   width: 40%;
   height: auto;
+}
+
+.coffee1 {
+  display: none;
+}
+
+.coffee2 {
+  display: none;
 }
