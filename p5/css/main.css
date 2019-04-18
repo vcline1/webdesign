@@ -140,3 +140,51 @@ img{
 .coffee2 {
   display: none;
 }
+
+.coffee3 {
+  width: 30%;
+  height: auto;
+  top: -8vw;
+  right: 3%;
+  display: none;
+}
+
+.coffee4 {
+  width: 22%;
+  height: auto;
+  top: -4vw;
+  right: 6.6%;
+  display: none;
+}
+
+.coffee5{
+  width: 26%;
+  height: auto;
+  right: 6%;
+  display: none;
+}
+
+.coffee6{
+  width: 32%;
+  height: auto;
+  top: -2vw;
+  display: none;
+}
+
+.coffee7 {
+  top: 1vw;
+  display: none;
+}
+
+.coffee8{
+  width: 43%;
+  right: -1vw;
+  display: none;
+}
+
+.coffee9{
+  top: 2vw;
+  width: 24%;
+  right: 7%;
+  display: none;
+}
