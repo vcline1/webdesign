@@ -7,40 +7,84 @@ $(document).ready(function() {
         $('.button').toggleClass('gray');
       });
 
-      var coffeeArray = [ ".coffee1", ".coffee2", ".coffee3", ".coffee4", ".coffee5", ".coffee6", ".coffee7", ".coffee8", ".coffee9" ];
-    	var randomNumber = Math.floor(Math.random() * coffeeArray.length);
 
+$('.button').click(function() {
+     var theImages = [{
+        src: "imgs/starbucks.png",
 
-      console.log(coffeeArray[randomNumber]);
+      }, {
+        src: "imgs/mcdonalds.png",
 
-      $('.button').click(function() {
-        $('.coffeeimg').css('display', 'block');
+      }, {
+        src: "imgs/bigby.png",
 
-      });
+      },{
+        src: "imgs/humanbean.png",
+
+      }, {
+        src: "imgs/kwik.png",
+
+      }, {
+        src: "imgs/small.png",
+
+      }, {
+        src:"imgs/speedway.png",
+
+      }, {
+        src:"imgs/stumptown.png",
+
+      }, {
+        src:"imgs/timhorton.png"
+
+      }, {
+        src:"imgs/mcdonalds2.png",
+
+      }, {
+        src:"imgs/mcdonalds3.png",
+
+      }, {
+        src:"imgs/starbucks2.png",
+
+      }, {
+        src:"imgs/starbucks3.png",
+
+      }, {
+        src:"imgs/starbucks4.png",
+
+      }, {
+        src:"imgs/timhorton3.png",
+
+      }, {
+        src:"imgs/wawa.png"
+    }];
+
+    var preBuffer = [];
+    for (var i = 0, j = theImages.length; i < j; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = theImages[i].src;
+        // preBuffer[i].width = theImages[i].width;
+        // preBuffer[i].height = theImages[i].height;
+    }
+
+    // create random image number
+    function getRandomInt(min,max)
+    {
+      //  return Math.floor(Math.random() * (max - min + 1)) + min;
+      imn = Math.floor(Math.random() * (max - min + 1)) + min;
+      return preBuffer[imn];
+    }
+
+    // 0 is first image,   preBuffer.length - 1) is  last image
+    var newImage = getRandomInt(0, preBuffer.length - 1);
+
+    // remove the previous images
+    var images = document.getElementsByTagName('img');
+    var l = images.length;
+    for (var p = 0; p < l; p++) {
+        images[0].parentNode.removeChild(images[0]);
+    }
+    // display the image
+    $('.show').append(newImage);
+    });
+
 });
-
-
-
-
-//
-//
-// $('#submit').click(function() {
-//
-//   if (guess == stripped || guess == fruitArray[randomNumber]) {
-//     $('h1').text('Yup, ' + guess + " is right.");
-//     $('input').text(guess);
-//     $('.button p').text('Play Again?');
-//     $('#submit').click(function() {
-//       location.reload(true);
-//     });
-//
-//   } else if (guess == none){
-//     $('h1').text('Guess something.....');
-//     $('.button p').text('Guess');
-// } else {
-//     $('h1').text('Nope, not ' + guess);
-//     $('input').val('');
-//     $('.button p').text('Guess Again');
-//   }
-// });
-// });
