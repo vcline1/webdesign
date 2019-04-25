@@ -8,6 +8,7 @@ $(document).ready(function() {
       });
 
 
+
 $('.button').click(function() {
      var theImages = [{
         src: "imgs/starbucks.png",
@@ -86,5 +87,4 @@ $('.button').click(function() {
     // display the image
     $('.show').append(newImage);
     });
-
 });

@@ -83,6 +83,15 @@ img{
   /* width: 40%; */
   height: 100%;
   width: auto;
+  transition: all .3s ease;
+
+}
+
+img:hover {
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.08);
+
 }
 
 .coffee1 {
