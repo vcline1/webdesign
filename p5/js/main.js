@@ -29,9 +29,6 @@ $('.button').click(function() {
         src: "imgs/small.png",
 
       }, {
-        src:"imgs/speedway.png",
-
-      }, {
         src:"imgs/stumptown.png",
 
       }, {
