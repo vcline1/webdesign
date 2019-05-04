@@ -14,4 +14,8 @@ $(document).ready(function(){
   $(".btn4").click(function(){
     $(".content4").slideToggle();
   });
+
+  $(".btn5").click(function(){
+    $(".content5").slideToggle();
+  });
 });

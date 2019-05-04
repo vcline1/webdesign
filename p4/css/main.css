@@ -36,7 +36,7 @@ h2 {
     }
 
 
-.btn2, .btn3, .btn4 {
+.btn2, .btn3, .btn4, .btn5 {
   margin-top: 13px;
 }
 
@@ -48,7 +48,7 @@ h2 {
 .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover {
   color: #B4B4B4;
   }
-  .content1, .content2, .content3, .content4 {
+  .content1, .content2, .content3, .content4, .content5 {
     margin-left: 20px;
     display: none;
   }
